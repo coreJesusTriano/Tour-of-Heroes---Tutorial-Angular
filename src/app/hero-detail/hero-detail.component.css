@@ -1,4 +1,18 @@
-button.clear {
+/* HeroDetailComponent's private CSS styles */
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+}
+button {
+  margin-top: 20px;
   font-family: Arial;
   background-color: #eee;
   border: none;
@@ -12,11 +26,6 @@ button:hover {
 }
 button:disabled {
   background-color: #eee;
-  color: #aaa;
+  color: #ccc;
   cursor: auto;
-}
-button.clear {
-  color: #333;
-  margin-bottom: 12px;
-  margin-top: 12px;
 }
