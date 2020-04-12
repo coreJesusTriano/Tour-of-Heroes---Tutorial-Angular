@@ -31,3 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To update the project version to the latest stable version of Angular available after the start of the project, we must execute the following command, inside the project root directory:
 
 `ng update @angular/cli @angular/core`
+
+## Installs dependencies
+
+`npm install`
