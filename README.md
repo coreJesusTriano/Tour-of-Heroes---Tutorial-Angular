@@ -32,6 +32,16 @@ To update the project version to the latest stable version of Angular available 
 
 `ng update @angular/cli @angular/core`
 
-## Installs dependencies
+## Install dependencies
+
+If you clone this project to local, then you must install the project dependencies with the following command.
 
 `npm install`
+
+## Fix vulnerabilities
+
+To fix project's vulnerabilities, we will use the following command
+
+`npm audit fix`
+
+Without 'fix' the command shows the detected vulnerabilities.
