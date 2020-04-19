@@ -32,4 +32,9 @@ export class HeroesComponent implements OnInit {
         // this callback add, pushing, the new hero to heroes's array
       });
   }
+
+  delete(hero: Hero): void {
+    this.heroes = this.heroes.filter(h => h !== hero);
+    this.heroService.deleteHero(hero).subscribe();
+  }
 }
